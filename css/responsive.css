@@ -27,10 +27,13 @@
     z-index: 2;
     display: inline-block;
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 10px;
+    top: 20px;
     text-decoration: none;
     color: black;
+  }
+  .logo img {
+    width: 50px;
   }
   .close-menu {
     display: inline-block;
@@ -42,10 +45,10 @@
     font-size: 32px;
   }
   .close-menu img {
-    width: 45px;
+    width: 40px;
   }
   .menu-button img {
-    width: 70px;
+    width: 50px;
   }
   .nav {
     position: absolute;
@@ -59,10 +62,10 @@
   }
   .logo {
     position: absolute;
-    margin: 20px;
+    margin: 25px 0 0 10px;
   }
   .logo img {
-    width: 90px;
+    width: 60px;
   }
   .buttons {
     display: inline-block;
@@ -85,13 +88,19 @@
   }
   .hero-text h1 {
     justify-content: center;
+    z-index: 2;
+    font-size: 30px;
+  }
+  .hero-text p {
+    font-size: 16px;
+    line-height: 20px;
   }
   .hero-content {
     padding: 45vh 0 0 0;
     width: 80%;
     min-width: 300px;
     justify-content: center;
-    margin: 5px auto;
+    margin: 15px auto;
     text-align: center;
   }
   .main-image img {
