@@ -27,7 +27,7 @@
     z-index: 2;
     display: inline-block;
     position: absolute;
-    right: 5px;
+    right: 2vw;
     top: 20px;
     text-decoration: none;
     color: black;
@@ -62,7 +62,7 @@
   }
   .logo {
     position: absolute;
-    margin: 25px 0 0 5px;
+    margin: 25px 0 0 2vw;
   }
   .logo img {
     width: 50px;
