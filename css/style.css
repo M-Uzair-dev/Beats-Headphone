@@ -168,6 +168,7 @@
   font-size: 40px;
 }
 .price {
+  margin-top: 5px;
   font-size: 25px;
   color: green;
 }
