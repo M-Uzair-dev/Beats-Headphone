@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+.hero {
+  background: white;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: right;
+}
+
+.logo {
+  margin: 25px 25px;
+  position: absolute;
+  z-index: 4;
+  top: -5px;
+}
+.logo img {
+  width: 70px;
+}
+.buttons {
+  display: flex;
+  margin: 35px 0;
+}
+.buttons li {
+  margin: 0 50px;
+  list-style: none;
+  border-radius: 2px;
+  padding: 0 2px 3px;
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+.buttons li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  user-select: none;
+}
+.buttons li a:hover {
+  color: rgb(243, 0, 0);
+}
+.menu-button {
+  display: none;
+}
+.close-menu {
+  display: none;
+}
+.hero-content {
+  width: 40%;
+  min-width: 400px;
+  margin: 0 7vw;
+}
+.hero-text {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.f19 {
+  color: white;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: red;
+  font-family: monospace;
+}
+.hero-text h1 {
+  margin: 25px 0;
+  font-size: 40px;
+  display: flex;
+}
+.hero-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.main-image {
+  position: absolute;
+  top: 8vh;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  right: 5vw;
+}
+.main-image img {
+  height: 80vh;
+  max-height: 600px;
+}
+.line {
+  height: 2px;
+  background-color: red;
+  border: none;
+}
+.features-section {
+  height: 90vh;
+  padding-top: 10vh;
+  background: linear-gradient(to bottom, white, rgb(245, 134, 134));
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.features-section-heading {
+  position: absolute;
+  top: 107vh;
+  border-bottom: 2px solid red;
+  padding: 0 10px 3px;
+  border-radius: 10px;
+}
+.feature-boxes-images {
+  width: 60px;
+}
+.feature-boxes {
+  width: 25vw;
+  padding: 20px;
+  border-radius: 20px;
+  user-select: none;
+  color: white;
+  background: linear-gradient(to bottom, rgb(248, 110, 110), red);
+  justify-content: center;
+  text-align: center;
+  transition: 0.7s all;
+}
+.feature-boxes:hover {
+  transform: translateY(-20px);
+}
+.feature-box-2 {
+  margin-bottom: 50px;
+}
+.feature-boxes h1 {
+  padding: 10px 0 20px;
+}
+.feature-boxes p {
+  padding-bottom: 20px;
+}
+.price-section {
+  height: 100vh;
+  background: linear-gradient(to top, white, rgb(245, 134, 134));
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.price-image {
+  width: 27vw;
+  margin: 50px 0 0 0;
+  transform: translateY(-3vh);
+  max-width: 500px;
+  min-width: 300px;
+}
+.price-heading {
+  position: absolute;
+  top: 205vh;
+  padding: 0 10px 3px;
+  border-bottom: 2px solid red;
+  border-radius: 10px;
+}
+.beats-heading {
+  margin: 10px 0 5px;
+  font-size: 40px;
+}
+.price {
+  font-size: 25px;
+  color: green;
+}
+.order {
+  height: 100vh;
+  display: flex;
+}
+.details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.vertical-line {
+  height: 90%;
+  margin: auto 0;
+  background-color: red;
+}
+.details h1 {
+  font-size: 35px;
+  margin: 30px 0;
+  padding: 0 10px 3px;
+  border-bottom: 2px solid red;
+  border-radius: 10px;
+}
+.details h2 {
+  margin: 20vh 0 40px 0;
+  font-size: 40px;
+  color: red;
+  padding: 2px 7px;
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+.details p {
+  width: 75%;
+  line-height: 25px;
+}
+.grey {
+  color: rgba(128, 128, 128, 0.692);
+  margin: 0 10px;
+}
+.formsec {
+  width: 50%;
+  display: flex;
+}
+.color {
+  display: flex;
+  text-align: center;
+  position: relative;
+  left: -2px;
+}
+.model {
+  display: flex;
+  text-align: center;
+}
+.information h1 {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+.information-heading {
+  color: red;
+}
+.statics {
+  margin: 40px 0 0 0;
+  font-size: 15px;
+}
+.model h1 {
+  margin: 0 10px;
+}
+.color h1 {
+  margin: 0 10px;
+}
+.p {
+  color: red;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number-line {
+  margin: 30px 0 0 0;
+}
+.number-line input {
+  height: 30px;
+  border: 2px solid red;
+  background: rgb(255, 110, 110);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  width: 12vw;
+}
+.number-line input::placeholder {
+  font-family: monospace;
+  color: white;
+}
+.number-line select {
+  height: 34px;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(255, 110, 110);
+  color: white;
+  width: 12vw;
+}
+.adress input {
+  margin: 20px 0;
+  height: 33vh;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgb(255, 110, 110);
+  color: white;
+  text-align: center;
+  width: 36vw;
+}
+.adress input::placeholder {
+  font-size: 20px;
+  color: white;
+}
+.order-button {
+  height: 35px;
+  width: 75px;
+
+  border: 2px solid red;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+.order-button:hover {
+  color: white;
+  background: rgb(255, 0, 0);
+}
+.footer {
+  background-color: red;
+  height: 8vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid rgb(255, 85, 85);
+}
+.footer h1 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}

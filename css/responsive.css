@@ -1,0 +1,235 @@
+@media (max-width: 1200px) {
+  .main-image img {
+    height: 60vh;
+    max-height: 500px;
+    position: relative;
+    top: -4vh;
+  }
+}
+@media (max-width: 1000px) {
+  .main-image img {
+    height: 50vh;
+  }
+  .main-image {
+    position: absolute;
+    top: 20vh;
+    height: 40vh;
+  }
+  .hero-text {
+    height: 40vh;
+  }
+  .hero-content {
+    padding: 45vh 0 0 0;
+  }
+}
+@media (max-width: 800px) {
+  .menu-button {
+    z-index: 2;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+  }
+  .close-menu {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 33vh;
+    right: 40px;
+    text-decoration: none;
+    font-size: 32px;
+  }
+  .close-menu img {
+    width: 45px;
+  }
+  .menu-button img {
+    width: 70px;
+  }
+  .nav {
+    position: absolute;
+    top: -40vh;
+    height: 40vh;
+    color: aliceblue;
+    background: linear-gradient(to bottom, red, rgb(248, 99, 99));
+    width: 100vw;
+    z-index: 3;
+    transition: 0.8s ease-in-out;
+  }
+  .logo {
+    position: absolute;
+    margin: 20px;
+  }
+  .logo img {
+    width: 90px;
+  }
+  .buttons {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 20vw;
+  }
+  .buttons li {
+    display: flex;
+    text-align: center;
+    margin: 35px 0;
+    border: none;
+    justify-content: center;
+  }
+  .buttons li a {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .hero-text h1 {
+    justify-content: center;
+  }
+  .hero-content {
+    padding: 50vh 0 0 0;
+    width: 70%;
+    min-width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main-image img {
+    margin-left: 10vw;
+    position: absolute;
+    top: 8vh;
+    height: 30vh;
+  }
+  .main-image {
+    margin: auto;
+    top: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 917px) {
+  .features-section {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .feature-box-2 {
+    margin-bottom: 0;
+  }
+  .feature-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    width: 90vw;
+  }
+  .feature-boxes h1 {
+    font-size: 25px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .feature-boxes p {
+    font-size: 15px;
+    padding-bottom: 0;
+  }
+  .features-section-heading {
+    top: 103vh;
+  }
+  .feature-boxes-images {
+    width: 90px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 570px) {
+  .feature-boxes-images {
+    display: none;
+  }
+  .feature-box-2 {
+    margin-bottom: 0;
+  }
+  .features-section-heading {
+    top: 103vh;
+  }
+  .feature-boxes h1 {
+    font-size: 25px;
+    margin-right: 0;
+  }
+  .feature-boxes {
+    flex-direction: column;
+    width: 80vw;
+    overflow: hidden;
+    height: 22vh;
+  }
+}
+@media (max-width: 1070px) {
+  .order {
+    flex-direction: column;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .details {
+    width: 100vw;
+  }
+  .details h1 {
+    margin: 20px 0;
+  }
+  .details h2 {
+    margin: 0 0 20px;
+  }
+  .details p {
+    margin: 0 0 20px 0;
+  }
+  .information {
+    width: 100vw;
+  }
+  .information h1 {
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+  .statics {
+    margin: 15px 10px;
+    font-size: 10px;
+  }
+  .form {
+    margin: 0;
+  }
+  .number-line input {
+    width: 25vw;
+    font-size: 11px;
+  }
+  .number-line select {
+    width: 30vw;
+    font-size: 10px;
+  }
+  .adress input {
+    width: 90vw;
+    height: 25vh;
+  }
+  .vertical-line {
+    height: 1px;
+    margin: 0;
+    width: 100vw;
+  }
+  .footer h1 {
+    font-size: 10px;
+  }
+}
+@media (max-width: 476px) {
+  .adress input {
+    width: 80vw;
+    height: 15vh;
+  }
+  .statics {
+    margin: 10px 0;
+  }
+  .statics h1 {
+    margin: 0 10px;
+  }
+  .number-line {
+    margin: 10px 0;
+  }
+  .adress input {
+    margin: 10px 0;
+  }
+}
