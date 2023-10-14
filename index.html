@@ -1,172 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <script
-      src="https://kit.fontawesome.com/913754237c.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&family=Montserrat:wght@400;500&family=Raleway:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <title>My Web</title>
-  </head>
-  <body>
-    <div class="hero" id="hero">
-      <div class="logo"><img src="images/logo.png" alt="logo" /></div>
-      <div class="nav" id="nav">
-        <ul class="buttons">
-          <li><a href="#hero" onclick="closemenu()">Home</a></li>
-          <li><a href="#features" onclick="closemenu()">Features</a></li>
-          <li><a href="#price" onclick="closemenu()">Price</a></li>
-          <li><a href="#order" onclick="closemenu()">Order</a></li>
-        </ul>
-        <a href="#" class="close-menu" onclick="closemenu()" id="closebtn"
-          ><img src="images/close-menu-logo.png" alt=""
-        /></a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beats F19 Pro wireless headphones - stylish, comfortable, and affordable. Upgrade your listening experience with Beats F19 Pro today.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&family=Montserrat:wght@400;500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Beats F19 Pro Wireless Headphones</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Beats Logo">
+    </div>
+    <nav>
+      <ul class="buttons">
+        <li><a href="#hero" onclick="closemenu()">Home</a></li>
+        <li><a href="#features" onclick="closemenu()">Features</a></li>
+        <li><a href="#price" onclick="closemenu()">Price</a></li>
+        <li><a href="#order" onclick="closemenu()">Order</a></li>
+      </ul>
+      <a href="#" class="close-menu" onclick="closemenu()" id="closebtn">
+        <img src="images/close-menu-logo.png" alt="Close Menu">
+      </a>
+    </nav>
+    <a href="#" class="menu-button" onclick="openmenu()" id="menubtn">
+      <img src="images/menu-logo.png" alt="Menu">
+    </a>
+  </header>
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Beats <span class="f19">F19</span> Pro</h1>
+        <p>
+          Introducing the Beats F19 Pro wireless headphones - stylish, comfortable, and affordable. With advanced wireless connectivity and a low price point. And the best part? They are available at a price point significantly lower than comparable headphones from other brands. Upgrade your listening experience with Beats F19 Pro today!
+        </p>
       </div>
-      <a href="#" class="menu-button" onclick="openmenu()" id="menubtn"
-        ><img src="images/menu-logo.png" alt=""
-      /></a>
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1>
-            Beats
-            <div class="f19">F19</div>
-            Pro
-          </h1>
-          <p>
-            Introducing the Beats F19 Pro wireless headphones - stylish,
-            comfortable and affordable. With advanced wireless connectivity and
-            a low price point. And the best part? They are available at a price
-            point significantly lower than comparable headphones from other
-            brands. upgrade your listening experience with Beats F19 Pro today!
-          </p>
+      <div class="main-image">
+        <img src="images/Main hero pic.png" alt="Beats F19 Pro">
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="features-section" id="features">
+    <h2 class="features-section-heading">Features</h2>
+    <article class="feature-boxes feature-box-1">
+      <img src="images/Connectivity image.png" alt="Connectivity" class="feature-boxes-images">
+      <h3>Connectivity</h3>
+      <p>
+        Our headphones feature advanced wireless connectivity, providing stable and fast pairing with any device. You can enjoy high-quality audio without any interruption or lag.
+      </p>
+    </article>
+    <article class="feature-boxes feature-box-2">
+      <img src="images/design image.png" alt="Design" class="feature-boxes-images">
+      <h3>Design</h3>
+      <p>
+        Our headphones are designed for ultimate comfort, with soft earpads and an adjustable headband for a perfect fit. You can wear them for hours without experiencing any discomfort.
+      </p>
+    </article>
+    <article class="feature-boxes feature-box-3">
+      <img src="images/cheaper image.png" alt="Value" class="feature-boxes-images">
+      <h3>Value</h3>
+      <p>
+        Our headphones offer unbeatable value for money, with a price significantly lower than comparable headphones from other brands while still maintaining excellent quality.
+      </p>
+    </article>
+  </section>
+  <hr>
+  <section class="price-section" id="price">
+    <h2 class="price-heading">Price</h2>
+    <img src="images/secondary pic.png" alt="Beats F19 Pro" class="price-image">
+    <h2 class="beats-heading">Beats F19 Pro</h2>
+    <h3 class="price">$120</h3>
+  </section>
+  <hr>
+  <section class="order" id="order">
+    <div class="details">
+      <h2>Order</h2>
+      <h3>Beats F19 Pro</h3>
+      <p>
+        Our delivery time is fast and efficient. We track your package every step of the way. Real-time updates on the status of your delivery. State-of-the-art logistics and tracking technology. Trust us to deliver your package on time and in perfect condition.
+      </p>
+    </div>
+    <hr class="vertical-line">
+    <div class="information">
+      <h2 class="information-heading">Order Information</h2>
+      <div class="statics">
+        <div class="model">
+          <h3 class="grey">Model:</h3>
+          <h3>Beats F19 Pro</h3>
         </div>
-        <div class="main-image">
-          <img src="images/Main hero pic.png" alt="Main Image" />
+        <div class="color">
+          <h3 class="grey">Color:</h3>
+          <h3 class="p">Red</h3>
         </div>
       </div>
-    </div>
-    <hr class="line" />
-    <div class="features-section" id="features">
-      <h1 class="features-section-heading">Features</h1>
-      <div class="feature-boxes feature-box-1">
-        <img
-          src="images/Connectivity image.png"
-          alt="image"
-          class="feature-boxes-images"
-        />
-        <h1>Connectivity</h1>
-        <p>
-          Our headphones feature advanced wireless connectivity, providing
-          stable and fast pairing with any device. You can enjoy high-quality
-          audio without any interruption or lag.
-        </p>
-      </div>
-      <div class="feature-boxes feature-box-2">
-        <img
-          src="images/design image.png"
-          alt="image"
-          class="feature-boxes-images"
-        />
-        <h1>Design</h1>
-        <p>
-          Our headphones are designed for ultimate comfort, with soft earpads
-          and an adjustable headband for a perfect fit. You can wear them for
-          hours without experiencing any discomfort.
-        </p>
-      </div>
-      <div class="feature-boxes feature-box-3">
-        <img
-          src="images/cheaper image.png"
-          alt="image"
-          class="feature-boxes-images"
-        />
-        <h1>cheaper</h1>
-        <p>
-          Our headphones offer unbeatable value for money, with a price
-          significantly lower than comparable headphones from other brands while
-          still maintaining excellent quality.
-        </p>
-      </div>
-    </div>
-    <hr class="line" />
-    <div class="price-section" id="price">
-      <h1 class="price-heading">Price</h1>
-      <img src="images/secondary pic.png" alt="image" class="price-image" />
-      <h1 class="beats-heading">Beats F19 Pro</h1>
-      <h3 class="price">120$</h3>
-    </div>
-    <hr class="line" />
-    <div class="order" id="order">
-      <div class="details">
-        <h1>Order</h1>
-        <h2>Beats F19 Pro</h2>
-        <p>
-          Our delivery time is fast and efficient. We track your package every
-          step of the way. Real-time updates on the status of your delivery.
-          State-of-the-art logistics and tracking technology. Trust us to
-          deliver your package on time and in perfect condition.
-        </p>
-      </div>
-      <hr class="vertical-line" />
-      <div class="information">
-        <h1 class="information-heading">Order Information</h1>
-        <div class="statics">
-          <div class="model">
-            <h1 class="grey">Model :</h1>
-            <h1>Beats F19 Pro</h1>
+      <div class="form-sec">
+        <form class="form">
+          <div class="number-line">
+            <input type="tel" placeholder="Phone number" required>
+            <input type="number" placeholder="Quantity" required max="3" min="1">
+            <select name="payment option" id="payment" required>
+              <option value="Card">Card payment</option>
+              <option value="Cod">Cash on delivery</option>
+            </select>
           </div>
-          <div class="color">
-            <h1 class="grey">Colour :</h1>
-            <h1 class="p">Red</h1>
+          <div class="address">
+            <input type="text" placeholder="Address" required>
           </div>
-        </div>
-        <div class="form-sec">
-          <form class="form">
-            <div class="number-line">
-              <input type="tel" placeholder="Phone number" required />
-              <input
-                type="number"
-                placeholder="Quantity"
-                required
-                max="3"
-                min="1"
-              />
-              <select name="payment option" id="payment" required>
-                <option value="Card">Card payment</option>
-                <option value="Cod">Cash on delivery</option>
-              </select>
-            </div>
-            <div class="adress">
-              <input type="text" placeholder="Adress" required />
-            </div>
-            <button type="reset" class="order-button">Order</button>
-          </form>
-        </div>
+          <button type="reset" class="order-button">Order</button>
+        </form>
       </div>
     </div>
-    <div class="footer">
-      <h1>&copy; Beats All rights reserved</h1>
-    </div>
-    <script>
-      var navbar = document.getElementById("nav");
-      function openmenu() {
-        navbar.style.top = "0";
-      }
-      function closemenu() {
-        navbar.style.top = "-40vh";
-      }
-    </script>
-  </body>
+  </section>
+  <footer>
+    <p>&copy; Beats All rights reserved</p>
+  </footer>
+  <script>
+    var navbar = document.getElementById("nav");
+    function openmenu() {
+      navbar.style.top = "0";
+    }
+    function closemenu() {
+      navbar.style.top = "-40vh";
+    }
+  </script>
+</body>
 </html>
